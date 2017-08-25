@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Natillera", "Natillera\Natillera.csproj", "{D4727360-821D-44F8-8070-4EDFD9FB4D23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N.Data", "N.Data\N.Data.csproj", "{8A5B819F-8E81-44CE-A85D-66A33F44582A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D4727360-821D-44F8-8070-4EDFD9FB4D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4727360-821D-44F8-8070-4EDFD9FB4D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4727360-821D-44F8-8070-4EDFD9FB4D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A5B819F-8E81-44CE-A85D-66A33F44582A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A5B819F-8E81-44CE-A85D-66A33F44582A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A5B819F-8E81-44CE-A85D-66A33F44582A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A5B819F-8E81-44CE-A85D-66A33F44582A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
