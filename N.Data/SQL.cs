@@ -18,7 +18,7 @@ namespace N.Data
         SqlCommand _cmd = new SqlCommand();
         SqlParameterCollection _pc = new SqlParameterCollection();
 
-        private string _Base="Default";
+        private string _Base="Local";
 
         public string Base
         {
@@ -40,7 +40,7 @@ namespace N.Data
             {
                 switch (_Base)
                 {
-                    case "Default": return N.Data.Properties.Settings.Default.Nat;
+                    case "Local": return N.Data.Properties.Settings.Default.Nat;
                     default:
                         return N.Data.Properties.Settings.Default.Nat;
                 }
